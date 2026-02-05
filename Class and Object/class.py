@@ -15,4 +15,9 @@ realityClub = Club() #class = car design, attrib = color, method = brake, object
 Club.name #acsessing value
 Club.name = "RealityClub" #changing value
 
-
+'''Creating Method'''
+ 
+class Reality:
+    name = "Sorrowful Reunion :("
+    def sayName (self):
+        print ("My name is...", self.name)
