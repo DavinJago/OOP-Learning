@@ -70,3 +70,19 @@ Notes :
 
 
 
+\### Method
+* Function : Function call is standalone, not attached to an object
+* Methods : must be called through an object
+* function that affiliate to class is called method.
+
+
+
+Example :
+
+functions -> print(), input()
+methods -> filename  = "club.txt"
+
+
+
+
+
