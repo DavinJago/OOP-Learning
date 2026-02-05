@@ -1,8 +1,8 @@
-\## What I Learned 
+## What I Learned 
 
 
 
-\### OOP Structures
+### OOP Structures
 
 * Dictionary
 * Module
@@ -29,7 +29,7 @@ Notes
 
 
 
-\### Class
+### Class
 
 * input -> process -> output commonly used
 * A program is made up of many cooperating objects
@@ -37,7 +37,7 @@ Notes
 
 
 
-\### Object
+### Object
 
 * Object is a code and independence data
 * key of object is break down problems into smaller, easier to understand pieces
@@ -70,7 +70,7 @@ Notes :
 
 
 
-\### Method
+### Method
 * Function : Function call is standalone, not attached to an object
 * Methods : must be called through an object
 * function that affiliate to class is called method.
