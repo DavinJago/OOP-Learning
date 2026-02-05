@@ -13,5 +13,5 @@ OOP is built upon several core principles, namely:
 
 The main goal of studying OOP is to develop the ability to write clean, structured, and scalable code. By applying object-oriented principles, programs become easier to understand, extend, and debug, especially as project complexity increases.
 
-### Notes
-Lecturer : I Made Suartana, S.Kom., M.Kom
+### Honorable Mention 
+* Lecturer : I Made Suartana, S.Kom., M.Kom
