@@ -64,3 +64,8 @@ methods -> filename  = "club.txt"
 * Used for initiation object condition
 * similar to method, filled with instruction
 * executed immediately after object used
+
+Notes :
+* Constructor always using __init__
+* different from method, const using obj to execute
+* obj aims to automatic execute

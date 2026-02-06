@@ -1,4 +1,4 @@
-'''defining class & object'''
+'''defining class & object, code example from lecturer'''
 
 class Club:
     name = "anything you want"
@@ -44,5 +44,23 @@ class test ():
     def show(self):
         print("Hello my name is " + self.name + " and I" + " work in " + self.company + ".")
 
-obj = test("Asep", "Roulette")
+obj = test("Asep", "Roulette")  #more simple than method because automatically fill the def main
 obj.show()
+
+'''Set & Get'''
+
+class Fan:
+    machine = "fan" #class variable
+
+    def __init__(self, rotate): #set
+        self.rotate = rotate
+
+    def setColor(self, color): #set
+        self.color = color
+    
+    def getColor(self): #get in final
+        return self.color
+    
+Miyako = Fan("stand") #set the type
+Miyako.setColor("white") #set the color
+print(Miyako.getColor()) #get the result
