@@ -1,6 +1,8 @@
 # Learning Object-Oriented Programming 
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=yellow&labelColor=black)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=yellow)
+![OOP](https://img.shields.io/badge/Object_Oriented_Programming-steelblue?style=for-the-badge)
+
 
 In Semester 2, I studied Object-Oriented Programming (OOP) as part of the curriculum, since it is one of the mandatory courses and also one of the graduation requirements. This course carries 4 credit units (SKS) and is conducted over a full semester under the supervision of the assigned lecturer.
 
