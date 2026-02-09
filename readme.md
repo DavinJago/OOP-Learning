@@ -1,6 +1,6 @@
-## Learning Object-Oriented Programming 
+# Learning Object-Oriented Programming 
 
-![Python](https://img.shields.io/badge/Python?style=for-the-badge&logo=python&labelcolor=black)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=yellow&labelColor=black)
 
 In Semester 2, I studied Object-Oriented Programming (OOP) as part of the curriculum, since it is one of the mandatory courses and also one of the graduation requirements. This course carries 4 credit units (SKS) and is conducted over a full semester under the supervision of the assigned lecturer.
 
@@ -13,5 +13,5 @@ OOP is built upon several core principles, namely:
 
 The main goal of studying OOP is to develop the ability to write clean, structured, and scalable code. By applying object-oriented principles, programs become easier to understand, extend, and debug, especially as project complexity increases.
 
-### Honorable Mention 
+## Honorable Mention 
 * Lecturer : I Made Suartana, S.Kom., M.Kom
