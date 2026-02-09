@@ -64,3 +64,6 @@ class Fan:
 Miyako = Fan("stand") #set the type
 Miyako.setColor("white") #set the color
 print(Miyako.getColor()) #get the result
+
+# Base Example from lecturer
+# Modified by Davin
