@@ -51,10 +51,9 @@ OOP is a popular paradigm, used for many app, such as dekstop software and mobil
 ## OOP
 * Like its name, OOP using object for programming
 * OOP aiming to implement real life entity like abstraction, inheritance, polymorphism, etc.
-* The main purpose of OOP is to bind the data to function so no other parts of another code can acsess this function
-> except this function exist
+* The main purpose of OOP is to bind the data to function so no other parts of another code can acsess this function, except this function exist
 
-OOP Concepts
+OOP Basic Concepts
 > Abstraction, Inherintance, Encapsulation, Polymorphism, Class, Object.
 
 > if you reading this, thank you for the attention :)
