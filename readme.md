@@ -1,4 +1,4 @@
-# Object-Oriented Programming (OOP) Fundamentals 💻
+# Object-Oriented Programming Basics
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=yellow)
 ![GIT](https://img.shields.io/badge/GIT-darkred?style=for-the-badge&logo=git)
