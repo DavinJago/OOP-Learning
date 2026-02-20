@@ -62,4 +62,14 @@
 
 * separation called coupling
 * there are 2 types, loose and tight
-* 
+* coupling refer to the level of dependency
+* tight coupling mean modul strongly connected each other, little change affect others
+* opposite of tight, loose mean modul weakly connected each other, little change did small impact to other
+
+### Cohession 
+
+* refers to the level to which elements work together for a common goal
+* High cohession mean elements connected each other, focus on 1 purpose
+* Low cohession means elements weakly connected each other and serving many goals
+
+* High cohession refers to some 
