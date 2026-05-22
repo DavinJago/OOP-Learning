@@ -12,6 +12,6 @@ class Laptop:
 
     def nyala(self):
         self.status = "on"
-        
+        print(f"laptop ")
 
 #
