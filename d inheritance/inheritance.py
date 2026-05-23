@@ -142,3 +142,51 @@ class Son(Father):
 s1 = Son('Prince', 'Rampal', 'Suki')
 print(s1.grandfathername)
 s1.print_name()
+
+# Code IV Hierarical Inherit
+# Similar to Single Inherit Code's
+
+# Base class
+class Parent:
+    def func1(self):
+        print("This function is parent class.")
+
+class Child1(Parent):
+    def func2(self):
+        print("This is child 1")
+
+class Child2(Parent):
+    def func3(self):
+        print("This function is in child 3")
+
+# Driver Code (Running Code)
+
+object1 = Child1()
+object2 = Child2()
+object1.func1()
+object1.func2()
+object2.func1()
+object2.func3()
+
+# CODE VII HYBRID INHERIT
+
+class School:
+    def func1(self):
+        print("This function rayka goblok")
+
+class Student1(School):
+    def func2(self):
+        print("Student 1")
+
+class Student2(School):
+    def func3(self):
+        print("Student 2")
+
+class Student3(Student1, School):
+    def func4(self):
+        print("This function is student 3.")
+
+# Driver code
+object = Student3()
+object.func1()
+object.func2()

@@ -14,7 +14,7 @@
 * Inheritance offers simple structure and ez to understand
 * Low cost development and maintanance
 
-### Inheritance Types
+## Inheritance Types
 Syntax :
 Class BaseClass:
     {Body}
@@ -49,4 +49,16 @@ Class DerivedClass(BaseClass):
 A -> B -> C 
 A Base class, B Intermediatory
 
-> Code -> Code V    
+> Code -> Code V 
+
+### Hierarchical Inherit
+* simply 1 to many
+* more than 1 class inherit from 1 basis
+* one parents, 2 childs or more
+
+> Code -> Code VI
+
+### Hybrid Inherit
+* Mixed by all the type of inherit
+
+> Code -> Code VII

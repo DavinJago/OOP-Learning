@@ -1,4 +1,4 @@
-'''defining class & object, code example from lecturer'''
+# defining class & object, code example from lecturer
 
 class Club:
     name = "anything you want"
@@ -9,16 +9,16 @@ class Club:
     def sayName (self): 
         print ("My name is...", self.name)
 
-#we can see attrib, method, class, and the results is object
+# we can see attrib, method, class, and the results is object
 
 realityClub = Club() #class = car design, attrib = color, method = brake, object = actual car
 
-''''acsessing and changing attribute'''
+# acsessing and changing attribute
 
 Club.name #acsessing value
 Club.name = "RealityClub" #changing value
 
-'''Creating Method'''
+# Creating Method
  
 class Reality:
     name = "Sorrowful Reunion"
@@ -34,7 +34,7 @@ def main ():
 
 main () #Calling Value
 
-'''Creating Constructor'''
+# Constructor Makes
 
 class test ():
     def __init__(self, name, company): #init used in constructor
@@ -47,7 +47,7 @@ class test ():
 obj = test("Asep", "Roulette")  #more simple than method because automatically fill the def main
 obj.show()
 
-'''Set & Get'''
+### Set & Get
 
 class Fan:
     machine = "fan" #class variable
