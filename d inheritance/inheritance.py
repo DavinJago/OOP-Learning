@@ -46,4 +46,13 @@ class Person():
 class Student(Person):
     def __init__(self, name, age):
         self.sName = name
-        self.sAge = 
+        self.sAge = age
+        #inheriting the property
+        super().__init__("Rahul, age")
+
+    def displayInfo(self):
+        print(self.sName, self.sAge)
+
+obj = Student("Mayang, 200")
+obj. display()
+obj.displayInfo()
