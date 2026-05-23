@@ -110,3 +110,35 @@ s1.fathername = "SUKI"
 s1.mothername = "LIAR"
 s1.sonname = "SUKILIAR"
 s1.parents()
+
+# CODE V MULTILEVEL INHERITANCE
+
+class Grandfather:
+    def __init__(self, grandfathername):
+        self.grandfathername = grandfathername
+
+# Fathername
+
+class Father(Grandfather):
+    def __init__(self, fathername, grandfathername):
+        self.fathername = fathername
+
+        Grandfather.__init__(self, grandfathername) # calling grandfather
+
+# child
+
+class Son(Father):
+    def __init__(self, sonname, fathername, grandfathername):
+        self.sonname = sonname
+
+        Father.__init__(self, fathername, grandfathername)
+    
+    def print_name(self):
+        print('Grandfather name :', self.grandfathername)
+        print('Father name :', self.fathername)
+        print('Son name :', self.sonname)
+
+# Driver code (Running the code)
+s1 = Son('Prince', 'Rampal', 'Suki')
+print(s1.grandfathername)
+s1.print_name()

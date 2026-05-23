@@ -40,3 +40,13 @@ Class DerivedClass(BaseClass):
 * all the features inherit into child class
 
 > Code -> Code IV
+
+### Multilevel Inherit
+* all features from child and parents inherit to the new grandchild class
+* similar to relations child to grandparents.
+
+### illustation :
+A -> B -> C 
+A Base class, B Intermediatory
+
+> Code -> Code V    
