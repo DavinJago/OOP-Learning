@@ -26,3 +26,17 @@ Class DerivedClass(BaseClass):
 ### Super Function
 * super() is a default function return object from parents class
 * making possibly to acsess method and attribute from child class
+
+> Code -> Inheritance.py Code II
+
+### Single Inherit
+* enabling child class inherit property from single parent.
+* possibly reuse of code and adding new features.
+
+> Code -> Code III
+
+### Multiple Inherit
+* when a class can inherit more than 1 
+* all the features inherit into child class
+
+> Code -> Code IV

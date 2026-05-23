@@ -31,7 +31,7 @@ emp = Employee("Geek2") #An Object of Employee
 print(emp.getName(), emp.isEmployee())
 
 
-#CODE 2 SUPER FUNCTION
+#CODE II SUPER FUNCTION
 
 # parent class
 class Person():
@@ -48,11 +48,65 @@ class Student(Person):
         self.sName = name
         self.sAge = age
         #inheriting the property
-        super().__init__("Rahul, age")
+        super().__init__("Rahul", age)
 
     def displayInfo(self):
         print(self.sName, self.sAge)
 
-obj = Student("Mayang, 200")
-obj. display()
+obj = Student("Mayang", 200)
+obj.display()
 obj.displayInfo()
+
+#CODE 3 SINGLE INHERITANCE
+
+# Base class
+class Parent:
+    def func1(self): #define function
+        print("This function is in parent class")
+
+# derived class (kelas asal)
+
+class Child(Parent):
+    def func2(self):
+        print("This function is in child class")
+
+# Driver's code 
+object = Child()
+object.func1()
+object.func2()
+
+# CODE IV MULTIPLE INHERITANCE
+
+#Base class 1
+class Mother:
+    mothername = ""
+
+    def mother(self):
+        print(self.mothername)
+
+#Base class 2
+
+class Father:
+    fathername = ""
+
+    def father(self):
+        print(self.fathername)
+
+class Son(Mother, Father):
+    sonname = ""
+
+    def parents(self):
+        print("Father :", self.fathername)
+        print("Mother :", self.mothername)
+
+#optional from writer (me)
+
+    def child(self):
+        print("Son :", self.sonname)
+
+#Driver's Code -> kode buat manggil semuanya
+s1 = Son()
+s1.fathername = "SUKI"
+s1.mothername = "LIAR"
+s1.sonname = "SUKILIAR"
+s1.parents()
