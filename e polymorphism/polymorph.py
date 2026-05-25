@@ -9,3 +9,14 @@ class B(A):
 
 b=B()
 
+class A:
+    def m1(self):
+        print("Super Class A:m1 method")
+
+class B(A):
+    def m1(self):
+        print("Child class B:m1 method")
+        super().m1()
+
+b=B()
+b.m1()

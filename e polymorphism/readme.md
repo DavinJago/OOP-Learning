@@ -13,5 +13,5 @@
 
 ### Continue from Super
 * when super and child had the same method, same variable, some scenario we want to use this 2
-* with this scene, we can call super
+* with this scenario/example, we can call super variable
 
