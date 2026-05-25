@@ -3,9 +3,16 @@
 
 ### Super() Python
 * Super is a function
+* super simply allow us to acsess parent's method (function)
 * called in child class, we can call
 1. Super Constructor
 2. Super Variable
 3. Super Method
 
-> Examples -> Code I Polymorph
+[Examples] -> ([polymorph.py](polymorph.py))
+
+### Continue from Super
+* when super and child had the same method, same variable, some scenario we want to use this 2
+* with this scene, we can call super
+
+> Examples ->
