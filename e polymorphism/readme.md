@@ -15,3 +15,4 @@
 * when super and child had the same method, same variable, some scenario we want to use this 2
 * with this scenario/example, we can call super variable
 
+[2 Same Method, but 1 Super](https://github.com/DavinJago/OOP-Learning/blob/dc196457db096bfbbe0c1cb48a57ca5eeee3d5d2/e%20polymorphism/polymorph.py#L12-L22  )
