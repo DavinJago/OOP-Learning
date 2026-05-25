@@ -9,10 +9,10 @@
 2. Super Variable
 3. Super Method
 
-[Examples] -> ([polymorph.py](polymorph.py))
+Examples -> ([polymorph.py](polymorph.py))
 
 ### Continue from Super
 * when super and child had the same method, same variable, some scenario we want to use this 2
 * with this scene, we can call super
 
-> Examples ->
+> Examples -> https://vscode.dev/github/DavinJago/OOP-Learning/blob/main/e%20polymorphism/polymorph.py#L1-L10
