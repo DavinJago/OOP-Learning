@@ -32,10 +32,12 @@
     Dog -> data2, move(), bark()
     *atp move in many animal are different in dog's way
 
+[Examples -> Code IV]()
+
 ### Overloading
 * Allow 1 method had the same name, but with different signature. 
 * signature can be different depend on parameter amount
-> Example 
+> Example (From Google)
     int plus(a + b)
     int plus(a + b + c)
 
@@ -54,4 +56,19 @@
 
 ### Method Overloading
 * if 2 method had the same name but argument different type 
-* But in py method, overloading 
+> In python, overloading is not possible, if we try declare method with same name but different argument, python will choose the last method
+
+[Examples -> Code III]()
+
+### Constructor Overloading
+* Overloading are not possible in python too
+* if we declare some construct, only the last construct will executed
+
+### Abstract Class
+* Containing one or more abstract method
+* just defined but not implemented
+
+### Method on Python
+1. Implemented Python
+    * A method
+

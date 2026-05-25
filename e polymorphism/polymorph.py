@@ -24,3 +24,42 @@ class B(A):
 
 b=B()
 b.m1()
+
+# Code III Overloading
+
+class Demo:
+    def m1(self):
+        print('no arg method')
+    def m1(self, a):
+        print('one arg method')
+    def m1(self, a, b):
+        print('two arg method')
+
+d=Demo()
+# d.m1() # -> error
+# d.m1(10) # -> error
+d.m1(10,20) # -> Sucsess
+
+# Code IV Overiding
+
+class Parent():
+    def __init__(self):
+        self.value = "Inside Parent"
+
+    def show(self):
+        print(self.value)
+
+class Child(Parent):
+    def __init__(self):
+        super().__init__()
+        self.value = "Inside Child"
+
+    def show(self):
+        print(self.value)
+
+#Driver
+obj1 = Parent()
+obj2 = Child()
+
+obj1.show()
+obj2.show()
