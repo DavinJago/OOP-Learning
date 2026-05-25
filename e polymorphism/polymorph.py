@@ -1,3 +1,5 @@
+# Code I Super
+
 class A:
     def __init__(self):
         print("super class A constructor")
@@ -8,6 +10,8 @@ class B(A):
         super().__init__()
 
 b=B()
+
+# Code II Super II
 
 class A:
     def m1(self):

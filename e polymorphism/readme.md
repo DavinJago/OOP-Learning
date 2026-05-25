@@ -1,4 +1,4 @@
-## Polymorphism, Abstract clas, interface 
+## Polymorphism, Abstract class, interface 
 ### Last slides, next ride to the mastering the python
 
 ### Super() Python
@@ -9,10 +9,49 @@
 2. Super Variable
 3. Super Method
 
-[Super Examples](https://github.com/DavinJago/OOP-Learning/blob/60c09d61cd3ac0c936d21e7c5f36873ee84bf1ed/e%20polymorphism/polymorph.py#L1-L10)
+[Examples -> Code I](https://github.com/DavinJago/OOP-Learning/blob/60c09d61cd3ac0c936d21e7c5f36873ee84bf1ed/e%20polymorphism/polymorph.py#L1-L12)
 
 ### Continue from Super
 * when super and child had the same method, same variable, some scenario we want to use this 2
 * with this scenario/example, we can call super variable
 
-[2 Same Method, but 1 Super](https://github.com/DavinJago/OOP-Learning/blob/dc196457db096bfbbe0c1cb48a57ca5eeee3d5d2/e%20polymorphism/polymorph.py#L12-L22  )
+[Examples -> Code II](https://github.com/DavinJago/OOP-Learning/blob/dc196457db096bfbbe0c1cb48a57ca5eeee3d5d2/e%20polymorphism/polymorph.py#L16-L26)
+
+### Polymorphism
+* Poly -> A lot, Morph -> shapes
+* "one shape in many forms"
+* Example 1 like Businessman, he can be dad, postman, negotiate, delivery man, etc.
+* Example 2 Animal can speak(); but different sound, cat -> meow, dog -> woof, cow -> moo.
+
+### Overiding
+* Features that allow modify parent's method from child-class
+> example: animal can speak, but cat had spesific meow sound.
+* when a method from subclass had the same name, attrib, and subtype. method in subclass actually are overriding that method in super class.
+> Example
+    Animal -> data1, move(), eat()
+    Dog -> data2, move(), bark()
+    *atp move in many animal are different in dog's way
+
+### Overloading
+* Allow 1 method had the same name, but with different signature. 
+* signature can be different depend on parameter amount
+> Example 
+    int plus(a + b)
+    int plus(a + b + c)
+
+### Overloading #Python
+* we can use same operator or method for different purpose
+* there are 3 types of overload
+
+### Overloading Operator
+* we use same operator for diff purpose
+* '+' can be use at arithmatic and string merge
+* '*' multiply can be use for number multiplication and repetition string, list, etc
+> Example
+    print(10+20)
+    print("Python" + "Programming")
+    print([1,2,3]+[4,5,6])
+
+### Method Overloading
+* if 2 method had the same name but argument different type 
+* But in py method, overloading 
