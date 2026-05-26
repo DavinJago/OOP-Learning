@@ -9,13 +9,13 @@
 2. Super Variable
 3. Super Method
 
-[Examples -> Code I](https://github.com/DavinJago/OOP-Learning/blob/60c09d61cd3ac0c936d21e7c5f36873ee84bf1ed/e%20polymorphism/polymorph.py#L1-L12)
+[Examples -> Code I](https://github.com/DavinJago/OOP-Learning/blob/a971a7e5d70231fdc8a4123c65a81df2aad1c794/e%20polymorphism/polymorph.py#L3-L12)
 
 ### Continue from Super
 * when super and child had the same method, same variable, some scenario we want to use this 2
 * with this scenario/example, we can call super variable
 
-[Examples -> Code II](https://github.com/DavinJago/OOP-Learning/blob/dc196457db096bfbbe0c1cb48a57ca5eeee3d5d2/e%20polymorphism/polymorph.py#L16-L26)
+[Examples -> Code II](https://github.com/DavinJago/OOP-Learning/blob/a971a7e5d70231fdc8a4123c65a81df2aad1c794/e%20polymorphism/polymorph.py#L16-L26)
 
 ### Polymorphism
 * Poly -> A lot, Morph -> shapes
