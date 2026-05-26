@@ -32,7 +32,7 @@
     Dog -> data2, move(), bark()
     *atp move in many animal are different in dog's way
 
-[Examples -> Code IV]()
+[Examples -> Code IV](https://github.com/DavinJago/OOP-Learning/blob/2c6ce57311b9af6223b3a3ff5f691b63a8c8f759/e%20polymorphism/polymorph.py#L45-L58)
 
 ### Overloading
 * Allow 1 method had the same name, but with different signature. 
@@ -58,7 +58,7 @@
 * if 2 method had the same name but argument different type 
 > In python, overloading is not possible, if we try declare method with same name but different argument, python will choose the last method
 
-[Examples -> Code III]()
+[Examples -> Code III](https://github.com/DavinJago/OOP-Learning/blob/2c6ce57311b9af6223b3a3ff5f691b63a8c8f759/e%20polymorphism/polymorph.py#L30-L41)
 
 ### Constructor Overloading
 * Overloading are not possible in python too
@@ -69,6 +69,14 @@
 * just defined but not implemented
 
 ### Method on Python
-1. Implemented Python
-    * A method
+1. Implemented Method
+    * A method that have a name and contents, this method called implemented method
+    * this method called concrete method or non-abstract
+2. Un-Implemented Method
+    * Only has name but not content, this called un-implemented
+    * called non-concrete or abstract
 
+* defaultly, python does'nt provide abstract class
+* python equipped with modul that define abstract class (ABC) this modul called ABC.
+
+[Examples -> Code V]()
