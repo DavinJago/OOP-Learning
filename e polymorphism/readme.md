@@ -80,3 +80,10 @@
 * python equipped with modul that define abstract class (ABC) this modul called ABC.
 
 [Examples -> Code V]()
+
+### Abstract Class Definition
+* abstract class contain constructor, variable, method, abstract, non-abstract, and subclass (child-class)
+* abstract method must implemented in subclass or child-class from abstract class
+* if subclass not implement abstract method, subclass automatically be abstract class
+* object creation not possible for abstract class
+* 

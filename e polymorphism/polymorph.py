@@ -64,5 +64,16 @@ obj2 = Child()
 obj1.show()
 obj2.show()
 
-# Code V Method
+# Code V Abstract
 
+from abc import *
+
+class Demo1(ABC):
+    @abstractmethod
+    def m1(self):
+        pass
+    @abstractmethod
+    def m2(self):
+        pass
+    def m3(self):
+        print("Implemented Method")
