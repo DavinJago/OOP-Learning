@@ -79,11 +79,16 @@
 * defaultly, python does'nt provide abstract class
 * python equipped with modul that define abstract class (ABC) this modul called ABC.
 
-[Examples -> Code V]()
+[Examples -> Code V](https://github.com/DavinJago/OOP-Learning/blob/544608a29b5564697998d491c2c19f9f980620a2/e%20polymorphism/polymorph.py#L69-L79)
 
 ### Abstract Class Definition
-* abstract class contain constructor, variable, method, abstract, non-abstract, and subclass (child-class)
-* abstract method must implemented in subclass or child-class from abstract class
-* if subclass not implement abstract method, subclass automatically be abstract class
+* abstract could contain constructor, variable, method, abstract, non-abstract, and subclass (child-class)
+* abstract method must implemented in subclass or child-class from abstract
+* if subclass not implementating abstract method, subclass automatically be an abstract class
 * object creation not possible for abstract class
-* 
+* we can make an obj for child-class from abstract to acsess implementation method
+
+### Interface
+* like class, interface can have variable and method, but defaultly abstract.
+* interface determine what to do. this is blue print.
+* interface 
