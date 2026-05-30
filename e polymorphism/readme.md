@@ -93,3 +93,33 @@
 * interface determine what to do. this is blue print.
 * interface is ability like a player can be a interface and must implemented move(). so this is a instruction for method to execute.
 * if a class implement interface and don't giving method a body, this declared as abstract.
+
+### THE DIFFERENCE
+* Interface is used when you only care about what an object can do, not how it does it.
+* example plane, superman, and bird is flying, so u can define they are flying().
+* Abstract class is used when related classes share common attributes or behavior, and you want to reuse that code while  
+forcing subclasses to implement specific parts.
+* PayPal, Credit Card, and Debit Card are all payment methods.They share validation, logging, and payment flow, but each has a different payment process.
+
+### Interface in Python
+* basically in python we can't using interface
+* we can using Abstract class that contain only abstract
+* or we can using package interface/module interface (zope.interface)
+
+### Zope Interface
+* Interface defined using python statement and using sub-class from interface
+* interface is a parent-class for all inheritance implementation
+* example:
+    class IMyInterface(zope.interface.Interface):
+        #Method and attributes
+
+### Lecturer comparing Python Interface to C and Java
+
+### Diagram Illustration (Final Page)
+Robot -> Run()
+in interface, we using Runnable + run() 
+* so basically its like we dont care how tf Robot is running
+Number -> Value double, clone(), compare to int
+in interface, we using comparable and cloneable.
+
+thank you if you reading this, this is my progress how to make it into programming :), enjoy.
