@@ -91,4 +91,5 @@
 ### Interface
 * like class, interface can have variable and method, but defaultly abstract.
 * interface determine what to do. this is blue print.
-* interface 
+* interface is ability like a player can be a interface and must implemented move(). so this is a instruction for method to execute.
+* if a class implement interface and don't giving method a body, this declared as abstract.
