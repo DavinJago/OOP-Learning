@@ -37,8 +37,7 @@ Declarative :
 
 > There are many examples of paradigms, such as EDP, Procedural Programming, Imperative, etc.
 
-### Some summary of programming paradigms
-
+> Some summary of programming paradigms
 ### OOP Nutshells
 OOP is a paradigm based on a object concept, it was inheritance from class that summarize data and method.
 OOP is a popular paradigm, used for many app, such as dekstop software and mobile, video games, and web development
