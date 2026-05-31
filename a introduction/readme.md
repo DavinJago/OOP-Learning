@@ -37,9 +37,9 @@ Declarative :
 
 > There are many examples of paradigms, such as EDP, Procedural Programming, Imperative, etc.
 
-## Object Oriented Programming
+### Some summary of programming paradigms
 
-### OOP Introduction
+### OOP Nutshells
 OOP is a paradigm based on a object concept, it was inheritance from class that summarize data and method.
 OOP is a popular paradigm, used for many app, such as dekstop software and mobile, video games, and web development
 
@@ -48,7 +48,7 @@ OOP is a popular paradigm, used for many app, such as dekstop software and mobil
 * Function treated like object class 1, function can be forwarded to another function
 * FP emphasize on data which cannot be changed and avoiding side effect (Input/Output)
 
-### OOP Continues
+## Object Oriented Programming
 * Like its name, OOP using object for programming
 * OOP aiming to implement real life entity like abstraction, inheritance, polymorphism, etc.
 * The main purpose of OOP is to bind the data to function so no other parts of another code can acsess this function, except this function exist
