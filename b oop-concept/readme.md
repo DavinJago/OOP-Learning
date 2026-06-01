@@ -22,9 +22,9 @@
 ### Main Pillar OOP
 
 * Abstraction -> Hiding Implementation, reduce complexity, ease of maintanance
-* Encapsulation -> wrapping / binding with class
-* Inherintance -> inherit character 
-* Polymorphism -> poly means a lot,  morphs means shape.
+* Encapsulation -> wrapping a method & attrib in a class
+* Inherintance -> inherit character (attrib & method)
+* Polymorphism -> poly means a lot,  morphs means shape
 
 ### Examples
 
@@ -37,7 +37,7 @@
 
 * Object is a real life entity that own attrib, method, and property
 * class is blueprint or template of object
-* example of car, class is blueprint and object is the results like audi or mercedes
+> example of car, class is blueprint and object is the results like audi or mercedes
 * class usually named after a object like car, and contain attrib and method.
 * Inherintance (Vehicle -> Wheel/Sea -> wheel like car or bicycle -> car like SUV or MPV)
 
@@ -46,7 +46,7 @@
 * Relations between class play important role in definition of how object interact each other
 * OOP provide mechanism for relation like association, aggregation, and composition
 
-### summary of trinity relations 
+### Summary of Trinity relations 
 
 * association is main concept of oop, called *use-a* relation, many shape like 1 to 1, 1 to many, etc
 * aggregation is relations use *has-a*, weak relations, object not depend or controlled by container
@@ -73,8 +73,14 @@
 * Low cohession means elements weakly connected each other and serving many goals
 
 ### There are 2 Cohession, Low & High
+
 * High Cohession refers to several software quality needed like endurance, reliability
 * Low cohession refers to quality that difficult to maintain, testing, or reuse
 * High cohession often associated to loose coupling and otherwise.
 
+### Reason to Using OOP
+
+* Object, Pattern -> Reusability
+* Inherit -> Reusability, Extensibilty, Flexibility
+      
 > rest of the slides explaining about software eng, agile, basic stacks, devops, etc.
