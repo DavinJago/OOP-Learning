@@ -1,4 +1,4 @@
-# What I Learned / summary (OOP Basic Concept)
+## What I Learned - OOP Concept
 
 ### Object oriented Programming Definition
 
@@ -71,5 +71,4 @@
 * refers to the level to which elements work together for a common goal
 * High cohession mean elements connected each other, focus on 1 purpose
 * Low cohession means elements weakly connected each other and serving many goals
-
 * High cohession refers to some 
