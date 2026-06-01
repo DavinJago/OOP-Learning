@@ -71,4 +71,10 @@
 * refers to the level to which elements work together for a common goal
 * High cohession mean elements connected each other, focus on 1 purpose
 * Low cohession means elements weakly connected each other and serving many goals
-* High cohession refers to some 
+
+### There are 2 Cohession, Low & High
+* High Cohession refers to several software quality needed like endurance, reliability
+* Low cohession refers to quality that difficult to maintain, testing, or reuse
+* High cohession often associated to loose coupling and otherwise.
+
+> rest of the slides explaining about software eng, agile, basic stacks, devops, etc.

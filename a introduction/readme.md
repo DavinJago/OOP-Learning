@@ -1,4 +1,4 @@
-# What I Learned (Introduction Slides)
+## What I Learned - Intro Slides
 
 ### Computer Compilation Process
 
