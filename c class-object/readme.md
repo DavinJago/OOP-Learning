@@ -9,7 +9,7 @@
 Examples:
 
 * Dictionary -> Key Value
-- Sarah : Human, Food : Burgers
+* Sarah : Human, Food : Burgers
 * Module -> main program TO many program
 * Library -> stdio.h, conio.h
 

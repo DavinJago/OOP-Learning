@@ -82,5 +82,5 @@
 
 * Object, Pattern -> Reusability
 * Inherit -> Reusability, Extensibilty, Flexibility
-      
+
 > rest of the slides explaining about software eng, agile, basic stacks, devops, etc.
